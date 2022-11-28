@@ -96,11 +96,13 @@ a, a:visited, a:hover, a:active {
 
 .infos {
     display: flex;
-    gap: 30px;
+    gap: 60px;
     justify-content: center;
 }
 
 .element {
+    flex: 0 0 auto;
+    width: 150px;
     display: flex;
     flex-flow: column;
     gap: 10px;
